@@ -19,11 +19,17 @@ fetch(newUrl)
         ajoutPrix(produit);
         ajoutDescription(produit);
         ajoutCouleurs(produit);
+        addTitle(produit);
 
 
 });
 
 // Ces fonctions nous permettent d'afficher les détails du produit sur notre page web
+
+// Affichage titre de la page
+function addTitle (produit) {
+    document.getElementsByTagName('title')[0].innerHTML = `${produit.name}`
+}
 
 
 // On récupere l'image et son altTxt
