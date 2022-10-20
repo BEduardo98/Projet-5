@@ -1,4 +1,11 @@
-# Kanap #
+# Projet-5-Kanap #
+
+I'm working at a web agency. My new client Kanap want to have a e-commerce platforme.
+
+In our agency we are three developpers :
+- Franck, the frontend developper, did the static integration of the website ;
+- Bilal , the backend developper , did the integration of the API who is connected to the front;
+- Me, I made the integration of dynamic elements with JavaScript.
 
 This is the front end and back end server for Project 5 of the Web Developer path.
 
